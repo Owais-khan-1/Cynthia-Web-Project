@@ -1,0 +1,617 @@
+
+@media(min-width: 1440px){
+    #main{
+    padding: 0px 15px;
+    }
+    nav{
+        padding: 30px 0px;
+    }
+    #logo{
+        font-size: 1.4rem;
+    }
+    #nav-inner h3{
+        font-size: 2.1vw;
+    }
+    #nav-inner h3 i{
+        font-size: 1.4rem;
+    }
+    #nav-inner{
+        height: 27px !important;
+    }
+
+    #nav-inner h3{
+        font-size: 1.4rem;
+    }
+    #nav-inner-ul li{
+        font-size: 1.2rem;
+    }
+    #extra{
+        display: none !important;
+    }
+
+    #t-f-div{
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    #t-s-div{
+        margin-left: 0px;
+    }
+
+    #t-s-div p{
+    width: 47rem;
+    }
+    #t-f-div img{
+    margin-left: 0px;
+    
+    }
+    #nav-inner #extra{
+        font-size: 1.4rem;
+        display: inline;
+    }
+    #nav-inner #extra i{
+        font-size: 1.4rem;
+    }
+    #nav-inner{
+        /* background-color: green; */
+        height: fit-content;
+    }
+    #hero-handle h1{
+        font-size: 9rem;
+    }
+    #mini h6{
+        font-size: 1.3rem;
+    }
+    #main-mid{
+        margin-top: 0px;
+    }
+    #main-mid h6{
+        font-size: 1.3rem;
+    }
+    #main-mid{
+        position: absolute;
+        top: 75%;
+        right: -1.5%;
+    }
+    #first-bottom h6{
+        font-size: 1.3rem;
+    }
+
+    .arrow i{
+        font-size: 1.3rem;
+    }
+    #page-2{
+        margin-top: 140px;
+    }
+    .page2-ele h1{
+        font-size: 6rem
+    }
+    .page2-ele h6{
+        font-size: 1.6rem;
+    }
+    #btn-div{
+        margin-top: 6rem; 
+    }
+
+    #btn-div button a{
+        font-size: 1.3rem;
+        padding: 0.6rem 1.5rem;
+    }
+    #page-3{
+        margin-top: 4rem;
+    }
+    #sponsers{
+        height: 12rem;
+        margin-top: 12rem;
+    }
+    #spons img{
+        height: 11rem;
+        width: 11rem;
+    }
+    #t-f-div img{
+        height: 13rem;
+        width: 13rem
+    }
+    #t-s-div h6{
+        font-size: 1.5rem;
+    }
+    #t-s-div p{
+        font-size: 1.2rem;
+    }
+    #t-s-div button a{
+        font-size: 1.2rem;
+        padding: 0.3rem 1rem;
+    }
+    #third-bottom{
+        position: absolute;
+        margin-top: 0rem;
+        left: 1.2%;
+        bottom: 0%;
+    }
+    #third-bottom h5{
+        font-size: 1.2rem;
+    }
+    footer{
+        padding:10px 30px;
+    }
+    #copy h5{
+        font-size: 1.4rem;
+    }
+    .foot-head a{
+        font-size: 1.4rem;
+    }
+    .page2-ele img {
+        height: 20vw;
+        width: 20vw;
+    }
+}
+
+@media(max-width:  1439px){
+    nav{
+        padding: 20px 15px;
+    }
+    #page-1 h1{
+        padding-left: 15px;
+    }
+    #hero-handle h1{
+        font-size: 10.5vw;
+    }
+    #hero-handle h6{
+        font-size: 1.5vw;
+    }
+    #main-mid h6{
+        font-size: 1.2rem;
+    }
+    #main-mid{
+        position: absolute;
+        top: 40%;
+        right: -1%;
+    }
+    #first-bottom h6{
+        font-size: 1.2rem;
+    }
+    #first-bottom{
+        padding: 8px 15px;
+    }
+    .arrow{
+        width: 30px;
+        height: 30px;
+    }   
+    .arrow i{
+        font-size: 1.2rem;
+    }
+    #page-2{
+        padding: 30px 15px;
+    }
+    .page2-ele h1{
+        font-size: 7vw;
+    }
+
+    .page2-ele h6{
+        font-size: 1.7vw;
+    }
+    #btn-div{
+        margin-top: 70px;
+    }
+    #btn-div button a{
+        font-size: 1.2rem;
+    }
+    #btn-div button{
+        padding: 8px 30px;
+    }
+    #spons img{
+        height: 11rem;
+        width: 11rem;
+    }
+    #t-s-div h6{
+        font-size: 1.2rem;
+    }
+    #t-s-div p{
+        font-size: 1.02rem;
+    }
+    #t-s-div button{
+        padding: 8px 20px;
+    }
+    #t-s-div button a {
+        font-size: 1.1rem;
+    }
+    #third-bottom h5{
+        font-size:  1.1rem;
+    }
+    #copy h5{
+        font-size: 1.1rem;
+    }
+    #social h4{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width: 1065px){
+    #hero-handle h1{
+        font-size: 13vw;
+    }
+}
+@media(max-width: 1000px){
+    #t-f-div{
+        display: flex;
+        justify-content: center;
+        /* background-color: red; */
+        width: 100%;
+        padding: 10px 30px; 
+        margin-top: 90px;
+        gap: 5px;
+    }
+    #t-s-div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+    }
+    #page-3 img{
+        height: 220px;
+        width: 220px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    #t-s-div p{
+        width: 52vw;
+        line-height: 1.5;
+    }
+}
+@media(max-width: 900px){
+    #hero-handle h1{
+    font-size: 13vw;
+    }
+    #mini h6{
+        font-size: 2vw;
+    }
+    #main-mid h6{
+        font-size: 2vw;
+    }
+    #first-bottom h6{
+        font-size: 2vw;
+    }
+    .arrow {
+        width: 3.1vw;
+        height: 3.1vw;
+    }
+    .arrow i{
+        font-size: 2vw;
+    }
+    .page2-ele h1{
+        font-size: 8vw;
+    }
+    .page2-ele h6{
+        font-size: 2vw;
+    }
+    .page2-ele img{
+        width: 280px;
+        height: 280px;
+    }
+    #btn-div button a{
+        font-size: 2.2vw;
+    }
+    #btn-div button{
+        padding: 1vw 3vw;
+    }
+    #spons img{
+        height: 20vw;
+        width: 20vw;
+    }
+    #t-f-div img{
+        height: 22vw;
+        width: 22vw;
+    }
+    #t-s-div h6{
+        font-size: 2vw;
+    }
+    #t-s-div p{
+        font-size: 1.85vw;
+    }
+    #t-s-div button a{
+        font-size: 1.8vw;
+    }
+    #t-s-div button{
+        padding: 0.8vw 2vw;
+    }
+    #third-bottom h5{
+        font-size: 2.1vw;
+    }
+    #copy h5{
+        font-size: 2vw;
+    }
+    #social h4{
+        font-size: 2.1vw;
+    }
+}
+
+@media(max-width: 800px){
+    #hero-handle h1{
+        font-size: 14vw;
+    }
+    #mini h6{
+        font-size: 2.68vw;
+    }
+    #main-mid h6{
+        font-size: 1.1rem;
+    }
+    #first-bottom h6{
+        font-size: 1.1rem;
+    }
+    .arrow{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .arrow i{
+        font-size: 1rem;
+    }
+    .page2-ele h1{
+        font-size: 8.2vw;
+    }
+    .page2-ele h6{
+        font-size:2.3vw;
+    }
+    #btn-div button{
+        padding: 0.5rem 1.3rem;
+    }
+    #btn-div button a{
+        font-size: 1rem;
+    }
+    #t-f-div img{
+        height: 10rem;
+        width: 10rem;
+    }
+    #t-s-div h6{
+        font-size: 1.1rem;
+    }
+    #t-s-div p{
+        font-size: 0.92rem;
+    }
+    #t-s-div button{
+        padding: 0.4rem 1.2rem;
+    }
+    #t-s-div button a{
+        font-size: 1rem;
+    }
+    #third-bottom h5{
+        font-size: 1rem;
+    }
+    #copy h5{
+        font-size: 0.9rem;
+    }
+    #social h4{
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width: 640px){
+    #move-circle{
+        display: none;
+    }
+    .page2-ele img{
+        display: none;
+    }
+    #t-f-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        width: 100%;
+        padding: 10px 20px;
+        padding-right: 50px; 
+        margin-top: 90px;
+        gap: 5px;
+    }
+    #t-s-div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+    }
+    #page-3 img{
+        height: 200px;
+        width: 200px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    #t-s-div p{
+        width: 90vw;
+        line-height: 1.65;
+    }
+    #third-bottom{
+        bottom: -100px;
+    }
+    footer{
+        margin-top: 240px;
+    }
+    #social{
+        gap: 20px;
+    }
+    #hero-handle h1{
+        font-size: 16.5vw;
+    }
+    #mini h6{
+        font-size: 3.3vw;
+    }
+}
+@media(max-width: 600px){
+
+    #extra{
+        background-color: #000;
+    }
+}
+@media(max-width: 550px){
+    #third-bottom{
+        bottom: -140px;
+    }
+    
+}
+@media(max-width: 560px){
+    #ex{
+        display: none;
+    }
+}
+@media(max-width: 550px){
+    
+    #btn-div{
+        margin-top: 20px;
+    }
+}
+@media(max-width: 500px){
+    #page-1{
+        min-height: 90vh;
+    }
+
+    #logo{
+        font-size: 4.3vw;
+    }
+    .nav-start-head a {
+        font-size: 4.5vw;
+    }
+
+    #slide-nav-menu li a{
+        font-size: 10vw;
+    }
+     #slide-foot{
+        gap: 5px;
+        flex-wrap: wrap;
+        padding: 2vw 20px;
+    }
+    #slide-foot h5 a {
+        font-size: 4vw;
+    }
+    #close a{
+        font-size: 4.5vw;
+    }
+    #nav-inner{
+        height: fit-content;
+    }
+    #menu{
+        display: none;
+    }
+    #nav-inner #extra{
+        font-size: 4.3vw;
+    }
+    #nav-inner #extra i{
+        font-size: 4vw;
+    }
+    .nav-start-head{
+        font-size: 4.5vw;
+    }
+    #hero-handle h1{
+        font-size: 16.7vw;
+    }
+    #mini h6{
+        font-size: 3.6vw;
+    }
+    #sponsers{
+        height: 35vw;
+        margin-top: 150px;
+    }
+    #spons{
+        gap: 50px;
+    }
+    #spons img {
+        height: 32vw;
+        width: 32vw;
+    }
+    #main-mid h6{
+        font-size: 3.5vw;
+    }
+    #main-mid{
+        position: absolute;
+        top: 40%;
+        right: -2.5%;
+    }
+    #first-bottom h6{
+        font-size: 3.5vw;
+    }
+    .page2-ele{
+        height: 25vw;
+    }
+    .page2-ele h1{
+        font-size: 9.6vw;
+    }
+    .page2-ele h6{
+        font-size: 3vw;
+    }
+    #page-2{
+        margin-top: 19vw;
+    }
+    #btn-div button{
+        padding: 1.5vw 3.5vw;
+
+    }
+    #btn-div button a {
+        font-size: 3.2vw;
+    }
+    #sponsers{
+        margin-top: 32vw;
+    }
+    #page-3{
+        margin-top: 1vw;
+    }
+    #t-f-div{
+        padding-top: 4vw;
+        padding-bottom: 2vw;
+    }
+    #t-f-div img{
+        height: 43vw;
+        width: 43vw;
+    }
+    #t-s-div h6{
+        font-size: 3.8vw;
+    }
+    #t-s-div p{
+        font-size: 3.3vw;
+    }
+    #t-s-div button{
+        padding: 1vw 3.5vw;
+    }
+    #t-s-div button a{
+        font-size: 3.5vw;
+    }
+    #third-bottom h5{
+        font-size: 3.5vw;
+    }
+    #third-bottom{
+        bottom: -180px;
+    }
+    #copy{
+        margin-top: 2vw;
+    }
+    #copy h5{
+        font-size: 3vw;
+    }
+    footer{
+        /* background-color: red; */
+        margin-top: 260px;
+        padding: 10px 20px;
+    }
+    #social{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.712);
+        width: 100%;
+        justify-content: space-between;
+        padding: 2vw 0px;
+        gap: 0px;
+    }
+    #social h4{
+        font-size: 3.5vw
+    }
+    #foot-div{
+        flex-direction: column-reverse;
+    }
+}
+@media(max-width: 300px){
+    .page2-ele{
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 5px;
+    }
+    #hero-handle h1{
+        font-size: 15.2vw;
+    }
+}
