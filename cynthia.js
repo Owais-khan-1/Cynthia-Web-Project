@@ -109,6 +109,7 @@ function Ani() {
 }
 Ani();
 
+
 let miniCircle = document.querySelector("#move-circle");
 miniCircle.innerHTML = "";
 
@@ -117,6 +118,9 @@ function pic() {
 
   elements.forEach(function (e) {
     let image = e.querySelector("img");
+
+    gsap.set(image, { xPercent: -50, yPercent: -25 });
+    // ye line origin center sy set krygi image ka 
 
     e.addEventListener("mouseenter", function () {
       gsap.to(image, {
@@ -133,15 +137,15 @@ function pic() {
     });
 
     e.addEventListener("mousemove", function (dets) {
-      let dif = e.getBoundingClientRect().top;
-      let diff = dets.clientY - dif;
-      let d1 = dets.clientX;
-      let rot = d1 - dets.clientX;
+      let bounds = e.getBoundingClientRect();
+      let relX = dets.clientX - bounds.left;
+      let relY = dets.clientY - bounds.top;
+
       gsap.to(image, {
-        x: dets.clientX - 190,
-        y: diff - 60,
+        x: relX,
+        y: relY,
         opacity: 1,
-        rotate: gsap.utils.clamp(-15, 15, rot),
+        rotate: gsap.utils.clamp(-15, 15, dets.movementX),
       });
     });
 
@@ -164,11 +168,16 @@ pic();
 
 function moveCircle() {
   let circ = document.querySelector("#move-circle");
+
+  gsap.set(circ, { xPercent: -50, yPercent: -50 });
+  // ye line circle ka origin set kr rhi hy center sy 
+
   window.addEventListener("mousemove", function (m) {
     gsap.to(circ, {
-      x: m.clientX - 20,
+      x: m.clientX ,
       y: m.clientY ,
       duration: 0.4,
+      
     });
   });
 }
